@@ -9,7 +9,7 @@ For the purpose of this tutorial we will use the following names:
 - Theme path `/bl-themes/box/`
 - CSS file path `/bl-themes/box/style.css`
 
-Let's add a CSS file called `style.css`, the file is located in `/bl-themes/box/style.css`, you don't need to care about the absolute path if you the helper `Theme::`.
+Let's add a CSS file called `style.css`, the file is located in `/bl-themes/box/style.css`, you don't need to care about the absolute path if you use the helper `Theme::`.
 ```
 <?php
 	echo Theme::css('style.css');
